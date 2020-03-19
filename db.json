@@ -1,265 +1,430 @@
 {
-  "response": {
-    "result": 0,
-    "object": {
-      "user": {
-        "userId": "2163827854",
-        "regNumber": "201321",
-        "sessionUuid": "248d344c-33a5-4137-ab70-43fd5854c43a",
-        "name": "Иваненко Иван Иванович",
-        "phone": "9130000333",
-        "firstName": "Иван",
-        "lastName": "Иваненко",
-        "secondName": "Иванович",
-        "isMW": true
-      },
-      "bankInfos": [
+  "workers": [
+    {
+      "name": "Морта",
+      "nickname": "",
+      "age": "OLD",
+      "statuses": [
         {
-          "id": 9794,
-          "network": 2399822661,
-          "mainBranch": false,
-          "supportEmails": [],
-          "contacts": [
-            {
-              "phone": "+74955877888",
-              "notes": ""
-            },
-            {
-              "phone": "8-800-100-94-34",
-              "notes": ""
-            },
-            {
-              "phone": "+7-913-777-67-67",
-              "notes": "Третий номер телефона"
-            }
-          ],
-          "fullName": "БАНК-Т (ОАО), Г.МОСКВА",
-          "corAccount": "30101810800000000436",
-          "inn": "123123123123",
-          "kpp": "",
-          "legalAddress": "123610,г.Москва,КРАСНОПРЕСНЕНСКАЯНАБ.,12",
-          "name": "БАНК-Т(ОАО)",
-          "nameShort": "БАНК-Т(ОАО)",
-          "city": "Г.МОСКВА",
-          "bic": "044552436",
-          "settings": {
-            "fsgEnabled": false,
-            "showCourses": true,
-            "showCredits": false,
-            "showDeposits": false,
-            "showCBRate": true,
-            "phoneAutoPayEnabled": false,
-            "allowWishRate": false,
-            "showExchange": false,
-            "showExchangeSection": false,
-            "showCurrencyTransfer": false,
-            "showTransfersToMyAcc": false,
-            "hceEnabled": false,
-            "showDiscounts": false,
-            "showFreeDocs": true,
-            "showTransfers": false,
-            "showMessageHistory": false,
-            "account20only": false,
-            "showTransfersByPhone": false,
-            "showTransfersByAgree": false,
-            "onlyBalanceRequestOnLogin": true,
-            "allowCardToCardTransfer": false,
-            "allowTransferWithoutCvv": false,
-            "allowEarlyRepayment": false,
-            "allowBudgetPayment": false,
-            "allowSearchRequisites": true,
-            "allowSearchServicesByAddress": true,
-            "canCreateFreeDocs": false,
-            "mpiSettings": {
-              "url": "https: //test.bankplus.ru/getpan/getpan/android?dt=true&partnerCard=true&locale=ru",
-              "selfOwnBankToAccAndCard": true,
-              "otherClientOwnBankToAcc": false,
-              "otherClientOwnBankToCard": false,
-              "otherClientOtherBankToAcc": false,
-              "otherClientOtherBankToCard": false,
-              "depositReplenishment": true,
-              "loanPayment": true,
-              "servicePayment": false,
-              "merchantId": "vostbank"
-            },
-            "pfmEnabled": true,
-            "allowRecalculateExchangeRates": false,
-            "openDepositEnabled": false,
-            "closeDepositEnabled": false,
-            "openCreditEnabled": false,
-            "loyaltySettings": [
-              {
-                "loyaltyId": 2332981664,
-                "singularName": "бонусныйрубль",
-                "dualName": "бонусныхрубля"
-              }
-            ],
-            "smsCodePhoneNumber": "6470",
-            "commissionTypeForOwnTransfer": "UP",
-            "commissionTypeForOtherTransfer": "UP",
-            "openAccountEnabled": false,
-            "closeAccountEnabled": false,
-            "chatEnabled": false,
-            "simplifiedRegistrationEnabled": false,
-            "transferDpEnabled": false,
-            "cardIssueEnabled": true,
-            "allowSubscriptionNotifications": false,
-            "cashWithdrawalByQrCode": false,
-            "qrPaV/NetworkConnectionImpl: yEnabled": false,
-            "callBackOrderEnabled": false,
-            "cardReissueEnabled": false,
-            "curTransferEnabled": false,
-            "curTransferExchangeEnabled": false,
-            "admitadCashBackSettings": {
-              "urlOffer": "https: //dev-new.bankplus.ru: 9992/mockey/service/ios",
-              "urlCondition": "https: //gift.korona.net/admitad/1/"
-            },
-            "transferFpsEnabled": false,
-            "fpsSetDefBankEnabled": false,
-            "fpsSetDefAccEnabled": false,
-            "showMaskedCardPayeeName": false,
-            "showMaskedAccountName": false,
-            "npdEnable": true,
-            "allowClientDataDpCreditPay": false,
-            "openBrokerageAccountsEnabled": false,
-            "searchAddressXmb": false,
-            "dpCreditPayUrl": "https: //koronapay.com/repayment/online"
-          }
+          "code": "MortaNAME",
+          "name": "Имя",
+          "description": "",
+          "value": 1.0,
+          "visible": false
         },
         {
-          "id": 24366,
-          "network": 2399822661,
-          "mainBranch": true,
-          "pushState": "NONE",
-          "supportEmails": [],
-          "contacts": [
-            {
-              "phone": "(812)329-55-15",
-              "notes": "Круглосуточно и квадратногодично"
-            }
-          ],
-          "fullName": "ООО \"ВАШ БАНК\", г.Новосибирск",
-          "corAccount": "30101810800000000963",
-          "inn": "1234567891",
-          "kpp": "",
-          "legalAddress": "620075, г. Екатеринбург, УЛ.ТОЛМАЧЕВА, 9",
-          "name": "ООО \"ВАШ БАНК\"",
-          "nameShort": "\"СБ \"ГУБЕРНСКИЙ\" (ОАО)",
-          "city": "г.Новосибирск",
-          "bic": "046551963",
-          "settings": {
-            "fsgEnabled": true,
-            "showCourses": true,
-            "showCredits": true,
-            "showDeposits": true,
-            "showCBRate": true,
-            "phoneAutoPayEnabled": true,
-            "allowWishRate": false,
-            "showExchange": true,
-            "showExchangeSection": true,
-            "showCurrencyTransfer": true,
-            "showTransfersToMyAcc": true,
-            "hceEnabled": false,
-            "showDiscounts": false,
-            "showFreeDocs": true,
-            "showTransfers": true,
-            "showMessageHistory": true,
-            "ownBankC2CSettings": {
-              "merchant": "vostbank",
-              "url": "https: //dev-new.bankplus.ru/getpan/getpan/android?locale=ru",
-              "type": "GET_PAN_FIO",
-              "allowSaveCard": false
-            },
-            "otherBankC2CSettings": {
-              "merchant": "vostbank",
-              "url": "https: //dev-new.bankplus.ru/getpan/getpan/android?locale=ru",
-              "type": "GET_PAN_FIO",
-              "allowSaveCard": false
-            },
-            "account20only": true,
-            "showTransfersByPhone": true,
-            "showTransfersByAgree": false,
-            "onlyBalanceRequestOnLogin": true,
-            "allowCardToCardTransfer": true,
-            "allowTransferWithoutCvv": false,
-            "allowEarlyRepayment": true,
-            "allowBudgetPayment": true,
-            "allowSearchRequisites": true,
-            "allowSearchServicesByAddress": true,
-            "canCreateFreeDocs": true,
-            "mpiSettings": {
-              "url": "https: //dev-new.bankplus.ru/getpan/getpan/android?dt=true&locale=ru",
-              "selfOwnBankToAccAndCard": false,
-              "otherClientOwnBankToAcc": false,
-              "otherClientOwnBankToCard": true,
-              "otherClientOtherBankToAcc": false,
-              "otherClientOtherBankToCard": true,
-              "depositReplenishment": false,
-              "loanPayment": false,
-              "servicePayment": false,
-              "merchantId": "vostbank"
-            },
-            "pfmEnV/NetworkConnectionImpl: abled": true,
-            "allowRecalculateExchangeRates": true,
-            "openDepositEnabled": true,
-            "closeDepositEnabled": true,
-            "openCreditEnabled": true,
-            "loyaltySettings": [
-              {
-                "loyaltyId": 2332981664,
-                "singularName": "бонусныйрубль",
-                "dualName": "бонусныхрубля"
-              }
-            ],
-            "smsCodePhoneNumber": "6470",
-            "commissionTypeForOwnTransfer": "UP",
-            "commissionTypeForOtherTransfer": "UP",
-            "openAccountEnabled": true,
-            "closeAccountEnabled": true,
-            "chatEnabled": false,
-            "simplifiedRegistrationEnabled": false,
-            "transferDpEnabled": true,
-            "cardIssueEnabled": true,
-            "allowSubscriptionNotifications": true,
-            "sweetCardUrl": "https: //ngs22.ru/?uri=baikal&clientid=devBankCustomer",
-            "cashWithdrawalByQrCode": true,
-            "qrPayEnabled": true,
-            "callBackOrderEnabled": true,
-            "cardReissueEnabled": false,
-            "curTransferEnabled": true,
-            "curTransferExchangeEnabled": false,
-            "referrerHyperlink": {
-              "text": "Заполнианкетунастраницеhttp: //vstbnk.ru/e3m ",
-              "userBonus": 500.0,
-              "friendBonus": 500.0
-            },
-            "admitadCashBackSettings": {
-              "urlOffer": "https://dev-new.bankplus.ru:9992/mockey/service/ios",
-              "urlCondition": "https: //gift.korona.net/admitad/1/"
-            },
-            "transferFpsEnabled": false,
-            "fpsSetDefBankEnabled": false,
-            "fpsSetDefAccEnabled": false,
-            "creditFormMode": "LOCAL",
-            "showMaskedCardPayeeName": false,
-            "showMaskedAccountName": false,
-            "npdEnable": true,
-            "allowClientDataDpCreditPay": false,
-            "openBrokerageAccountsEnabled": false,
-            "searchAddressXmb": false,
-            "dpCreditPayUrl": "https://koronapay.com/repayment/online"
-          }
+          "code": "witch",
+          "name": "Ведьма",
+          "description": "Владеет темными обрядами, темной силой, насылает проклятия и злых духов",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "hasWarts",
+          "name": "Бородавки",
+          "description": "Как и положено мерзкой ведьме имеет бородавки",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "hasCat",
+          "name": "Черный кот",
+          "description": "Ведьминский атрибут",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "hasMop",
+          "name": "Помело",
+          "description": "Ведьминский атрибут",
+          "value": 1.0,
+          "visible": true
         }
-      ],
-      "session": {
-        "sessionId": "3FBDB765D59F782FD57C945B76DB3000",
-        "instanceId": "1A6E25F114FBFE0F7AAFAD52CC368544",
-        "timeout": 600,
-        "removeWToken": false
-      },
-      "removeWToken": true,
-      "pushEnabledTimeout": 10,
-      "absClientId": "devBankCustomer"
+      ]
     }
-  }
+  ],
+  "workers1": [
+    {
+      "name": "Ларс",
+      "nickname": "Кузнец",
+      "age": "ADULT",
+      "statuses": [
+        {
+          "code": "strong",
+          "name": "Плечистый",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "craftsmanSKILL",
+          "name": "Рукастый",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "marital",
+          "name": "Муж Ниры и отец Эльги",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "illiterateVICE",
+          "name": "Неграмотный",
+          "description": "Плохо считает, почти не читает",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers2": [
+    {
+      "name": "Ирита",
+      "nickname": "Травница",
+      "age": "ADULT",
+      "statuses": [
+        {
+          "code": "herbalistSKILL",
+          "name": "Травница",
+          "description": "Знает полезные травы и умеет их использовать",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "marital",
+          "name": "Жена Ларса и мать Эльги",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers3": [
+    {
+      "name": "Эльга",
+      "nickname": "",
+      "age": "CHILDREN",
+      "statuses": [
+        {
+          "code": "CHILDREN",
+          "name": "Ребенок",
+          "value": 1.0,
+          "visible": false
+        },
+        {
+          "code": "marital",
+          "name": "Дочь Ларса и Эльги",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "hasCurls",
+          "name": "Кудрявая",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers4": [
+    {
+      "name": "Дион",
+      "nickname": "Сучок",
+      "age": "ADULT",
+      "statuses": [
+        {
+          "code": "rangerSKILL",
+          "name": "Следопыт",
+          "description": "Позволяет читать следы",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "bowSKILL",
+          "name": "Стрельба из лука",
+          "description": "Умеет стрелять из лука",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "carveSKILL",
+          "name": "Свежевание",
+          "description": "Умеет разделывать туши",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "survivalSKILL",
+          "name": "Выживание",
+          "description": "Приспособлен к выживанию в дикой природе",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "bowWEAPON",
+          "name": "Лук",
+          "description": "Яйца и бесконечные стрелы прилагаются",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "marital",
+          "name": "Брат Пита",
+          "description": "Этот брат суровее",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "hasScar",
+          "name": "Есть шрам ",
+          "description": "Лицо перекошено от удара зверя",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "HURTByBeast",
+          "name": "Ранен зверем ",
+          "description": "Укусы и царапины",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers5": [
+    {
+      "name": "Пит",
+      "nickname": "Береста",
+      "age": "ADULT",
+      "statuses": [
+        {
+          "code": "rangerSKILL",
+          "name": "Следопыт",
+          "description": "Позволяет читать следы",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "bowSKILL",
+          "name": "Стрельба из лука",
+          "description": "Умеет стрелять из лука",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "carveSKILL",
+          "name": "Свежевание",
+          "description": "Умеет разделывать туши",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "survivalSKILL",
+          "name": "Выживание",
+          "description": "Приспособлен к выживанию в дикой природе",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "bowWEAPON",
+          "name": "Лук",
+          "description": "Яйца и бесконечные стрелы прилагаются",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "marital",
+          "name": "Брат Диона",
+          "description": "Этот брат симпатичнее",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers6": [
+    {
+      "name": "Нира",
+      "nickname": "Хромая",
+      "age": "YOUNG",
+      "statuses": [
+        {
+          "code": "herbalistSKILL",
+          "name": "Травница",
+          "description": "Знает полезные травы и умеет их использовать",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "marital",
+          "name": "Ученица Морты",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "lameDEFECT",
+          "name": "Хромает на правую ногу",
+          "description": "Вероятно последствия какой-то болезни",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers7": [
+    {
+      "name": "Алундра",
+      "nickname": "Хмельной",
+      "age": "ADULT",
+      "statuses": [
+        {
+          "code": "farmer",
+          "name": "Фермер",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "useChildrenForHarvest",
+          "name": "Использует детей для помощи по хозяйству",
+          "value": 1.0,
+          "visible": false
+        },
+        {
+          "code": "marital",
+          "name": "Муж Барбары, отец Кена и Тоги",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "redhead",
+          "name": "Рыжий",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers8": [
+    {
+      "name": "Барбара",
+      "nickname": "Бочка",
+      "age": "ADULT",
+      "statuses": [
+        {
+          "code": "farmer",
+          "name": "Фермер",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "useChildrenForHarvest",
+          "name": "Использует детей для помощи по хозяйству",
+          "value": 1.0,
+          "visible": false
+        },
+        {
+          "code": "marital",
+          "name": "Жена Алундры, мать Кена и Тоги",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "fat",
+          "name": "Толстая",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers9": [
+    {
+      "name": "Кен",
+      "nickname": "",
+      "age": "CHILDREN",
+      "statuses": [
+        {
+          "code": "CHILDREN",
+          "name": "Ребенок",
+          "value": 1.0,
+          "visible": false
+        },
+        {
+          "code": "marital",
+          "name": "Сын Барбары и Алундры",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "redhead",
+          "name": "Рыжий",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "hasWoodHorse",
+          "name": "Палка с черепом коня",
+          "description": "Скачет на ней по хутору",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "dadsHelper",
+          "name": "При деле",
+          "description": "Помогает семье по хозяйству",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "workers10": [
+    {
+      "name": "Тога",
+      "nickname": "",
+      "age": "CHILDREN",
+      "statuses": [
+        {
+          "code": "CHILDREN",
+          "name": "Ребенок",
+          "value": 1.0,
+          "visible": false
+        },
+        {
+          "code": "redhead",
+          "name": "Рыжая",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "marital",
+          "name": "Дочь Барбары и Алундры",
+          "description": "",
+          "value": 1.0,
+          "visible": true
+        },
+        {
+          "code": "strangeVICE",
+          "name": "Странная",
+          "description": "Иногда разговаривает сама с собой",
+          "value": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ]
 }
