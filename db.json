@@ -1,14 +1,265 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 11" },
-    { "id": 2, "title": "Post 22" },
-    { "id": 3, "title": "Post 33" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "response": {
+    "result": 0,
+    "object": {
+      "user": {
+        "userId": "2163827854",
+        "regNumber": "201321",
+        "sessionUuid": "248d344c-33a5-4137-ab70-43fd5854c43a",
+        "name": "Иваненко Иван Иванович",
+        "phone": "9130000333",
+        "firstName": "Иван",
+        "lastName": "Иваненко",
+        "secondName": "Иванович",
+        "isMW": true
+      },
+      "bankInfos": [
+        {
+          "id": 9794,
+          "network": 2399822661,
+          "mainBranch": false,
+          "supportEmails": [],
+          "contacts": [
+            {
+              "phone": "+74955877888",
+              "notes": ""
+            },
+            {
+              "phone": "8-800-100-94-34",
+              "notes": ""
+            },
+            {
+              "phone": "+7-913-777-67-67",
+              "notes": "Третий номер телефона"
+            }
+          ],
+          "fullName": "БАНК-Т (ОАО), Г.МОСКВА",
+          "corAccount": "30101810800000000436",
+          "inn": "123123123123",
+          "kpp": "",
+          "legalAddress": "123610,г.Москва,КРАСНОПРЕСНЕНСКАЯНАБ.,12",
+          "name": "БАНК-Т(ОАО)",
+          "nameShort": "БАНК-Т(ОАО)",
+          "city": "Г.МОСКВА",
+          "bic": "044552436",
+          "settings": {
+            "fsgEnabled": false,
+            "showCourses": true,
+            "showCredits": false,
+            "showDeposits": false,
+            "showCBRate": true,
+            "phoneAutoPayEnabled": false,
+            "allowWishRate": false,
+            "showExchange": false,
+            "showExchangeSection": false,
+            "showCurrencyTransfer": false,
+            "showTransfersToMyAcc": false,
+            "hceEnabled": false,
+            "showDiscounts": false,
+            "showFreeDocs": true,
+            "showTransfers": false,
+            "showMessageHistory": false,
+            "account20only": false,
+            "showTransfersByPhone": false,
+            "showTransfersByAgree": false,
+            "onlyBalanceRequestOnLogin": true,
+            "allowCardToCardTransfer": false,
+            "allowTransferWithoutCvv": false,
+            "allowEarlyRepayment": false,
+            "allowBudgetPayment": false,
+            "allowSearchRequisites": true,
+            "allowSearchServicesByAddress": true,
+            "canCreateFreeDocs": false,
+            "mpiSettings": {
+              "url": "https: //test.bankplus.ru/getpan/getpan/android?dt=true&partnerCard=true&locale=ru",
+              "selfOwnBankToAccAndCard": true,
+              "otherClientOwnBankToAcc": false,
+              "otherClientOwnBankToCard": false,
+              "otherClientOtherBankToAcc": false,
+              "otherClientOtherBankToCard": false,
+              "depositReplenishment": true,
+              "loanPayment": true,
+              "servicePayment": false,
+              "merchantId": "vostbank"
+            },
+            "pfmEnabled": true,
+            "allowRecalculateExchangeRates": false,
+            "openDepositEnabled": false,
+            "closeDepositEnabled": false,
+            "openCreditEnabled": false,
+            "loyaltySettings": [
+              {
+                "loyaltyId": 2332981664,
+                "singularName": "бонусныйрубль",
+                "dualName": "бонусныхрубля"
+              }
+            ],
+            "smsCodePhoneNumber": "6470",
+            "commissionTypeForOwnTransfer": "UP",
+            "commissionTypeForOtherTransfer": "UP",
+            "openAccountEnabled": false,
+            "closeAccountEnabled": false,
+            "chatEnabled": false,
+            "simplifiedRegistrationEnabled": false,
+            "transferDpEnabled": false,
+            "cardIssueEnabled": true,
+            "allowSubscriptionNotifications": false,
+            "cashWithdrawalByQrCode": false,
+            "qrPaV/NetworkConnectionImpl: yEnabled": false,
+            "callBackOrderEnabled": false,
+            "cardReissueEnabled": false,
+            "curTransferEnabled": false,
+            "curTransferExchangeEnabled": false,
+            "admitadCashBackSettings": {
+              "urlOffer": "https: //dev-new.bankplus.ru: 9992/mockey/service/ios",
+              "urlCondition": "https: //gift.korona.net/admitad/1/"
+            },
+            "transferFpsEnabled": false,
+            "fpsSetDefBankEnabled": false,
+            "fpsSetDefAccEnabled": false,
+            "showMaskedCardPayeeName": false,
+            "showMaskedAccountName": false,
+            "npdEnable": true,
+            "allowClientDataDpCreditPay": false,
+            "openBrokerageAccountsEnabled": false,
+            "searchAddressXmb": false,
+            "dpCreditPayUrl": "https: //koronapay.com/repayment/online"
+          }
+        },
+        {
+          "id": 24366,
+          "network": 2399822661,
+          "mainBranch": true,
+          "pushState": "NONE",
+          "supportEmails": [],
+          "contacts": [
+            {
+              "phone": "(812)329-55-15",
+              "notes": "Круглосуточно и квадратногодично"
+            }
+          ],
+          "fullName": "ООО \"ВАШ БАНК\", г.Новосибирск",
+          "corAccount": "30101810800000000963",
+          "inn": "1234567891",
+          "kpp": "",
+          "legalAddress": "620075, г. Екатеринбург, УЛ.ТОЛМАЧЕВА, 9",
+          "name": "ООО \"ВАШ БАНК\"",
+          "nameShort": "\"СБ \"ГУБЕРНСКИЙ\" (ОАО)",
+          "city": "г.Новосибирск",
+          "bic": "046551963",
+          "settings": {
+            "fsgEnabled": true,
+            "showCourses": true,
+            "showCredits": true,
+            "showDeposits": true,
+            "showCBRate": true,
+            "phoneAutoPayEnabled": true,
+            "allowWishRate": false,
+            "showExchange": true,
+            "showExchangeSection": true,
+            "showCurrencyTransfer": true,
+            "showTransfersToMyAcc": true,
+            "hceEnabled": false,
+            "showDiscounts": false,
+            "showFreeDocs": true,
+            "showTransfers": true,
+            "showMessageHistory": true,
+            "ownBankC2CSettings": {
+              "merchant": "vostbank",
+              "url": "https: //dev-new.bankplus.ru/getpan/getpan/android?locale=ru",
+              "type": "GET_PAN_FIO",
+              "allowSaveCard": false
+            },
+            "otherBankC2CSettings": {
+              "merchant": "vostbank",
+              "url": "https: //dev-new.bankplus.ru/getpan/getpan/android?locale=ru",
+              "type": "GET_PAN_FIO",
+              "allowSaveCard": false
+            },
+            "account20only": true,
+            "showTransfersByPhone": true,
+            "showTransfersByAgree": false,
+            "onlyBalanceRequestOnLogin": true,
+            "allowCardToCardTransfer": true,
+            "allowTransferWithoutCvv": false,
+            "allowEarlyRepayment": true,
+            "allowBudgetPayment": true,
+            "allowSearchRequisites": true,
+            "allowSearchServicesByAddress": true,
+            "canCreateFreeDocs": true,
+            "mpiSettings": {
+              "url": "https: //dev-new.bankplus.ru/getpan/getpan/android?dt=true&locale=ru",
+              "selfOwnBankToAccAndCard": false,
+              "otherClientOwnBankToAcc": false,
+              "otherClientOwnBankToCard": true,
+              "otherClientOtherBankToAcc": false,
+              "otherClientOtherBankToCard": true,
+              "depositReplenishment": false,
+              "loanPayment": false,
+              "servicePayment": false,
+              "merchantId": "vostbank"
+            },
+            "pfmEnV/NetworkConnectionImpl: abled": true,
+            "allowRecalculateExchangeRates": true,
+            "openDepositEnabled": true,
+            "closeDepositEnabled": true,
+            "openCreditEnabled": true,
+            "loyaltySettings": [
+              {
+                "loyaltyId": 2332981664,
+                "singularName": "бонусныйрубль",
+                "dualName": "бонусныхрубля"
+              }
+            ],
+            "smsCodePhoneNumber": "6470",
+            "commissionTypeForOwnTransfer": "UP",
+            "commissionTypeForOtherTransfer": "UP",
+            "openAccountEnabled": true,
+            "closeAccountEnabled": true,
+            "chatEnabled": false,
+            "simplifiedRegistrationEnabled": false,
+            "transferDpEnabled": true,
+            "cardIssueEnabled": true,
+            "allowSubscriptionNotifications": true,
+            "sweetCardUrl": "https: //ngs22.ru/?uri=baikal&clientid=devBankCustomer",
+            "cashWithdrawalByQrCode": true,
+            "qrPayEnabled": true,
+            "callBackOrderEnabled": true,
+            "cardReissueEnabled": false,
+            "curTransferEnabled": true,
+            "curTransferExchangeEnabled": false,
+            "referrerHyperlink": {
+              "text": "Заполнианкетунастраницеhttp: //vstbnk.ru/e3m ",
+              "userBonus": 500.0,
+              "friendBonus": 500.0
+            },
+            "admitadCashBackSettings": {
+              "urlOffer": "https://dev-new.bankplus.ru:9992/mockey/service/ios",
+              "urlCondition": "https: //gift.korona.net/admitad/1/"
+            },
+            "transferFpsEnabled": false,
+            "fpsSetDefBankEnabled": false,
+            "fpsSetDefAccEnabled": false,
+            "creditFormMode": "LOCAL",
+            "showMaskedCardPayeeName": false,
+            "showMaskedAccountName": false,
+            "npdEnable": true,
+            "allowClientDataDpCreditPay": false,
+            "openBrokerageAccountsEnabled": false,
+            "searchAddressXmb": false,
+            "dpCreditPayUrl": "https://koronapay.com/repayment/online"
+          }
+        }
+      ],
+      "session": {
+        "sessionId": "3FBDB765D59F782FD57C945B76DB3000",
+        "instanceId": "1A6E25F114FBFE0F7AAFAD52CC368544",
+        "timeout": 600,
+        "removeWToken": false
+      },
+      "removeWToken": true,
+      "pushEnabledTimeout": 10,
+      "absClientId": "devBankCustomer"
+    }
   }
 }
